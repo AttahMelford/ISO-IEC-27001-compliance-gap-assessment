@@ -11,7 +11,7 @@ A.5.24,Information security incident management planning and preparation,Respond
 A.5.30,ICT readiness for business continuity,Recover,RC.RP,Recovery activities are executed and maintained,Maps ICT continuity readiness to recovery planning
 A.6.1,Screening,Protect,PR.AA,Personnel receive cybersecurity awareness and training,Preliminary mapping to personnel-related cybersecurity protection
 A.6.3,Information security awareness education and training,Protect,PR.AT,Personnel receive cybersecurity awareness and training,Maps security awareness activities to awareness and training
-A.6.5,Responsibilities after termination or change of employment,Protect,PR.AA,Access permissions and identities are managed,Maps employee transfer and termination processes to identity and access management
+A.6.5,Responsibilities after termination or change of employment,Protect,PR.AT,Access permissions and identities are managed,Maps employee transfer and termination processes to identity and access management
 A.6.7,Remote working,Protect,PR.AA,Access to systems and assets is managed,Preliminary mapping to secure remote access and identity controls
 A.6.8,Information security event reporting,Respond,RS.CO,Incident response is coordinated with relevant stakeholders,Maps event reporting to incident communication and coordination
 A.7.1,Physical security perimeters,Protect,PR.PS,Physical access to assets is managed,Preliminary mapping to access control for facilities and restricted areas
