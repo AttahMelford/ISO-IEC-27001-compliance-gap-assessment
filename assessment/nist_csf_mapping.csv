@@ -1,1 +1,11 @@
 ISO Control ID,ISO Control Name,NIST CSF Function,NIST CSF Category,NIST CSF Outcome,Mapping Rationale
+A.5.1,Policies for information security,Govern,GV.PO,Organizational cybersecurity policy is established and communicated,Maps policy governance to organizational cybersecurity policy
+A.5.7,Threat intelligence,Identify,ID.RA,Cybersecurity risks and threats are understood,Maps threat intelligence activities to risk assessment and threat awareness
+A.5.9,Inventory of information and other associated assets,Identify,ID.AM,Assets are identified and managed,Maps information asset inventory to asset management
+A.5.15,Access control,Protect,PR.AA,Access to assets is managed and protected,Maps access control requirements to identity and access management
+A.5.18,Access rights,Protect,PR.AA,Access permissions are managed and reviewed,Maps access-right management to identity and access management
+A.5.19,Information security in supplier relationships,Govern,GV.SC,Cybersecurity risks from suppliers are managed,Maps supplier security risk management to supply chain risk management
+A.5.20,Addressing information security within supplier agreements,Govern,GV.SC,Supplier cybersecurity requirements are established,Maps contractual security requirements to supply chain risk management
+A.5.23,Information security for use of cloud services,Govern,GV.PO,Organizational cybersecurity policies guide cloud security,Preliminary mapping to policy governance for cloud security responsibilities
+A.5.24,Information security incident management planning and preparation,Respond,RS.MA,Incidents are managed and response activities are coordinated,Maps incident response preparation to incident management
+A.5.30,ICT readiness for business continuity,Recover,RC.RP,Recovery activities are executed and maintained,Maps ICT continuity readiness to recovery planning
