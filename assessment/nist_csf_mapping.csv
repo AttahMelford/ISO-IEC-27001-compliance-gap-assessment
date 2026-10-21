@@ -9,3 +9,23 @@ A.5.20,Addressing information security within supplier agreements,Govern,GV.SC,S
 A.5.23,Information security for use of cloud services,Govern,GV.PO,Organizational cybersecurity policies guide cloud security,Preliminary mapping to policy governance for cloud security responsibilities
 A.5.24,Information security incident management planning and preparation,Respond,RS.MA,Incidents are managed and response activities are coordinated,Maps incident response preparation to incident management
 A.5.30,ICT readiness for business continuity,Recover,RC.RP,Recovery activities are executed and maintained,Maps ICT continuity readiness to recovery planning
+A.6.1,Screening,Protect,PR.AT,Personnel receive cybersecurity awareness and training,Preliminary mapping to personnel-related cybersecurity protection
+A.6.3,Information security awareness education and training,Protect,PR.AT,Personnel receive cybersecurity awareness and training,Maps security awareness activities to awareness and training
+A.6.5,Responsibilities after termination or change of employment,Protect,PR.AA,Access permissions and identities are managed,Maps employee transfer and termination processes to identity and access management
+A.6.7,Remote working,Protect,PR.AA,Access to systems and assets is managed,Preliminary mapping to secure remote access and identity controls
+A.6.8,Information security event reporting,Respond,RS.CO,Incident response is coordinated with relevant stakeholders,Maps event reporting to incident communication and coordination
+A.7.1,Physical security perimeters,Protect,PR.AA,Physical access to assets is managed,Preliminary mapping to access control for facilities and restricted areas
+A.7.2,Physical entry,Protect,PR.AA,Physical access is managed and monitored,Maps physical entry controls to access management
+A.7.4,Physical security monitoring,Detect,DE.CM,Assets and activities are monitored for potentially adverse events,Maps physical monitoring to continuous monitoring
+A.7.7,Clear desk and clear screen,Protect,PR.DS,Data is protected according to organizational requirements,Preliminary mapping to protection of information in workspaces
+A.7.8,Equipment siting and protection,Protect,PR.PS,Technology assets are protected from environmental threats,Maps equipment protection to platform and physical protection
+A.8.2,Privileged access rights,Protect,PR.AA,Privileged access is restricted and managed,Maps privileged account management to identity and access controls
+A.8.5,Secure authentication,Protect,PR.AA,Users and devices are authenticated,Maps authentication requirements to identity and access management
+A.8.8,Management of technical vulnerabilities,Identify,ID.RA,Vulnerabilities are identified and managed,Maps vulnerability identification and remediation to risk assessment
+A.8.9,Configuration management,Protect,PR.PS,Technology assets are securely configured,Maps configuration baselines to platform security
+A.8.13,Information backup,Recover,RC.RP,Recovery activities are performed and maintained,Maps backup readiness to recovery planning
+A.8.15,Logging,Detect,DE.CM,Assets and activities are monitored for adverse events,Maps security logging to monitoring and detection
+A.8.16,Monitoring activities,Detect,DE.CM,Assets and activities are monitored for adverse events,Maps monitoring activities to continuous monitoring
+A.8.24,Use of cryptography,Protect,PR.DS,Data is protected in accordance with organizational requirements,Maps cryptographic protection to data security
+A.8.25,Secure development life cycle,Protect,PR.PS,Technology assets are securely developed and maintained,Preliminary mapping to secure development and platform protection
+A.8.32,Change management,Protect,PR.PS,Technology assets are managed and maintained securely,Maps controlled changes to secure technology management
