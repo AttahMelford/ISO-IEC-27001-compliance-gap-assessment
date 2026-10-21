@@ -23,7 +23,7 @@ A.8.2,Privileged access rights,Protect,PR.AA,Privileged access is restricted and
 A.8.5,Secure authentication,Protect,PR.AA,Users and devices are authenticated,Maps authentication requirements to identity and access management
 A.8.8,Management of technical vulnerabilities,Identify,ID.RA,Vulnerabilities are identified and managed,Maps vulnerability identification and remediation to risk assessment
 A.8.9,Configuration management,Protect,PR.PS,Technology assets are securely configured,Maps configuration baselines to platform security
-A.8.13,Information backup,Protect,PR.DS,Recovery activities are performed and maintained,Information backup aligns with NIST CSF 2.0 PR.DS-11, which covers creating, protecting, maintaining, and testing backups.
+A.8.13,Information backup,Protect,PR.DS,Recovery activities are performed and maintained,Information backup aligns with NIST CSF 2.0 PR.DS-11 which covers creating protecting maintaining, and testing backups
 A.8.15,Logging,Detect,DE.CM,Assets and activities are monitored for adverse events,Maps security logging to monitoring and detection
 A.8.16,Monitoring activities,Detect,DE.CM,Assets and activities are monitored for adverse events,Maps monitoring activities to continuous monitoring
 A.8.24,Use of cryptography,Protect,PR.DS,Data is protected in accordance with organizational requirements,Maps cryptographic protection to data security
