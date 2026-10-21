@@ -1,12 +1,12 @@
-# Selected ISO 27001:2022 Annex A Controls
+# Selected ISO/IEC 27001:2022 Annex A Controls
 
-## Purpose
+## 1. Purpose
 
-This document identifies the controls selected for the simulated compliance gap assessment of Meridian Digital Services.
+This document lists the 30 ISO/IEC 27001:2022 Annex A controls selected for the simulated cybersecurity compliance gap assessment of Meridian Digital Services, a fictional software and IT services organization.
 
-The selection covers organizational, people, physical, and technological security controls.
+The selection covers organizational, people, physical, and technological controls. It is intended to demonstrate a structured GRC assessment process rather than assess the complete Annex A control set.
 
-## Organizational Controls
+## 2. Organizational Controls
 
 - A.5.1 — Policies for information security
 - A.5.7 — Threat intelligence
@@ -19,7 +19,7 @@ The selection covers organizational, people, physical, and technological securit
 - A.5.24 — Information security incident management planning and preparation
 - A.5.30 — ICT readiness for business continuity
 
-## People Controls
+## 3. People Controls
 
 - A.6.1 — Screening
 - A.6.3 — Information security awareness, education and training
@@ -27,7 +27,7 @@ The selection covers organizational, people, physical, and technological securit
 - A.6.7 — Remote working
 - A.6.8 — Information security event reporting
 
-## Physical Controls
+## 4. Physical Controls
 
 - A.7.1 — Physical security perimeters
 - A.7.2 — Physical entry
@@ -35,7 +35,7 @@ The selection covers organizational, people, physical, and technological securit
 - A.7.7 — Clear desk and clear screen
 - A.7.8 — Equipment siting and protection
 
-## Technological Controls
+## 5. Technological Controls
 
 - A.8.2 — Privileged access rights
 - A.8.5 — Secure authentication
@@ -48,8 +48,17 @@ The selection covers organizational, people, physical, and technological securit
 - A.8.25 — Secure development life cycle
 - A.8.32 — Change management
 
-## Important Note
+## 6. Applicability and Assessment Notes
 
-These controls are selected for a simulated portfolio assessment. Their applicability must be justified for the fictional organization through the risk assessment and risk treatment process.
+The selected controls are assessed in `assessment/iso27001_gap_assessment.csv`. Their applicability decisions, justifications, implementation statuses, and preliminary treatment decisions are documented in `assessment/statement_of_applicability.csv`.
 
-Control titles and references should be verified against ISO/IEC 27001:2022 before the final assessment is published.
+The SoA in this project is an excerpt covering these 30 selected controls, not a complete Statement of Applicability for all Annex A controls.
+
+Control selection and applicability should be justified through the organization's information security risk assessment and risk treatment process. In this simulated project, those decisions are illustrative and have not been approved by a real organization.
+
+Control titles and references should be checked against the official ISO/IEC 27001:2022 standard before use in a real assessment.
+
+## 7. Project Limitation
+
+This control selection supports a simulated GRC portfolio project for a fictional organization. It does not establish that the organization conforms to ISO/IEC 27001:2022 or is ready for certification.
+
