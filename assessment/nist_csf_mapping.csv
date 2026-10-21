@@ -15,7 +15,7 @@ A.6.5,Responsibilities after termination or change of employment,Protect,PR.AA,A
 A.6.7,Remote working,Protect,PR.AA,Access to systems and assets is managed,Preliminary mapping to secure remote access and identity controls
 A.6.8,Information security event reporting,Respond,RS.CO,Incident response is coordinated with relevant stakeholders,Maps event reporting to incident communication and coordination
 A.7.1,Physical security perimeters,Protect,PR.PS,Physical access to assets is managed,Preliminary mapping to access control for facilities and restricted areas
-A.7.2,Physical entry,Protect,PR.AA,Physical access is managed and monitored,Maps physical entry controls to access management
+A.7.2,Physical entry,Protect,PR.PS,Physical access is managed and monitored,Maps physical entry controls to access management
 A.7.4,Physical security monitoring,Detect,DE.CM,Assets and activities are monitored for potentially adverse events,Maps physical monitoring to continuous monitoring
 A.7.7,Clear desk and clear screen,Protect,PR.DS,Data is protected according to organizational requirements,Preliminary mapping to protection of information in workspaces
 A.7.8,Equipment siting and protection,Protect,PR.PS,Technology assets are protected from environmental threats,Maps equipment protection to platform and physical protection
