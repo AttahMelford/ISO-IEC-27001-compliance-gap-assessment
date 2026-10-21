@@ -1,1 +1,11 @@
 Evidence ID,Related Control ID,Evidence Name,Evidence Type,Evidence Owner,Date Requested,Date Received,Review Status,Evidence Finding,Evidence Location,Follow-up Required
+EV-001,A.5.1,Information security policy and approval record,Policy document,Security Manager,2026-10-21,,Pending,Approval and review evidence has not yet been validated,Restricted evidence folder,Yes
+EV-002,A.5.9,Information asset inventory,Inventory spreadsheet,IT Operations Manager,2026-10-21,,Pending,Completeness of cloud services and data assets requires validation,Restricted evidence folder,Yes
+EV-003,A.5.15,Access control policy,Policy document,IT Operations Manager,2026-10-21,,Pending,Consistent implementation across applications requires validation,Restricted evidence folder,Yes
+EV-004,A.5.18,Application access review records,Access review export,IT Operations Manager,2026-10-21,,Pending,Review coverage across critical applications requires validation,Restricted evidence folder,Yes
+EV-005,A.5.19,Supplier security assessment records,Assessment records,Vendor Risk Manager,2026-10-21,,Pending,Documented supplier assessments require validation,Restricted evidence folder,Yes
+EV-006,A.5.23,Cloud service security configuration and responsibility records,Configuration records,Cloud Operations Manager,2026-10-21,,Pending,Cloud security responsibilities and review records require validation,Restricted evidence folder,Yes
+EV-007,A.5.24,Incident response plan and exercise records,Plan and exercise report,Security Manager,2026-10-21,,Pending,Incident response exercise evidence is required,Restricted evidence folder,Yes
+EV-008,A.6.3,Security awareness training completion report,Training report,Human Resources Manager,2026-10-21,,Pending,Training completion records require validation,Restricted evidence folder,Yes
+EV-009,A.8.8,Vulnerability scan and remediation records,Scan report,Security Analyst,2026-10-21,,Pending,Remediation timelines and closure evidence require validation,Restricted evidence folder,Yes
+EV-010,A.8.13,Backup and restoration test records,Backup report,IT Operations Manager,2026-10-21,,Pending,Backup restoration testing evidence has not been validated,Restricted evidence folder,Yes
