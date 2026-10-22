@@ -1,4 +1,4 @@
-Control ID,Control Name,Applicable,Justification,Implementation Status,Evidence Reference,Related Risk ID,Treatment Required,Notes
+Control ID,Control Name,Applicable,Justification,Implementation Status,Assessment Record Reference,Related Risk ID,Treatment Required,Notes
 A.5.1,Policies for information security,Yes,Required to establish and maintain information security policies,Partially Implemented,iso27001_gap_assessment.csv:A.5.1,R-014; R-017,Yes,Formal approval and review records need improvement
 A.5.7,Threat intelligence,Yes,Supports awareness of relevant cybersecurity threats,Partially Implemented,iso27001_gap_assessment.csv:A.5.7,R-006; R-018,Yes,Document threat intelligence review activities
 A.5.9,Inventory of information and other associated assets,Yes,Required to identify and manage information assets,Partially Implemented,iso27001_gap_assessment.csv:A.5.9,R-008; R-014,Yes,Complete the inventory of cloud and data assets
