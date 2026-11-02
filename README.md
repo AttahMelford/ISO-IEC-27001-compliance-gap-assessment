@@ -1,6 +1,6 @@
 # ISO/IEC 27001:2022 Compliance Gap Assessment
 
-A simulated Governance, Risk, and Compliance (GRC) portfolio project assessing 30 selected ISO/IEC 27001:2022 Annex A controls for a fictional software and IT services organization.
+A completed simulated Governance, Risk, and Compliance (GRC) portfolio project assessing 30 selected ISO/IEC 27001:2022 Annex A controls for a fictional software and IT services organization.
 
 ## Project Overview
 
@@ -11,30 +11,32 @@ A simulated Governance, Risk, and Compliance (GRC) portfolio project assessing 3
 - **Project Type:** Simulated compliance gap assessment
 - **Assessment Scope:** 30 selected Annex A controls
 
-This project demonstrates a structured approach to information security control assessment, risk identification, applicability decisions, evidence tracking, and remediation planning.
+This project involved conducting a structured information security control assessment, identifying potential risks and control gaps, documenting applicability decisions, tracking evidence requirements, and developing remediation recommendations.
 
-The assessment uses simulated organizational information to document potential control gaps, assign illustrative risk ratings, identify evidence requirements, and recommend corrective actions. It is designed to demonstrate practical GRC documentation and analysis skills.
+Using simulated organizational information, I documented control implementation statuses, assigned illustrative risk ratings, identified evidence requirements, and developed supporting GRC documentation.
 
 All findings and evidence descriptions are simulated. No real organization's controls were audited, and this project does not establish ISO/IEC 27001 compliance or certification.
 
 ## Project Objectives
 
-- Assess 30 selected Annex A controls across organizational, people, physical, and technological categories.
-- Document control implementation statuses, potential gaps, and supporting evidence requirements.
-- Develop a Statement of Applicability (SoA) excerpt with applicability justifications and preliminary treatment decisions.
-- Identify and document 20 cybersecurity risks in a structured risk register.
-- Calculate illustrative inherent and residual risk scores using a defined scoring methodology.
-- Track proposed evidence requests, receipt status, and follow-up activities.
-- Map selected ISO/IEC 27001 controls to relevant NIST CSF 2.0 outcomes.
-- Develop a remediation plan with proposed actions, responsible roles, priorities, and target timelines.
-- Present assessment results and recommendations in reports intended for management review.
+The project addressed the following objectives:
+
+- Assessed 30 selected Annex A controls across organizational, people, physical, and technological categories.
+- Documented control implementation statuses, potential gaps, and supporting evidence requirements.
+- Developed a Statement of Applicability (SoA) excerpt with applicability justifications and preliminary treatment decisions.
+- Identified and documented 20 cybersecurity risks in a structured risk register.
+- Calculated illustrative inherent and residual risk scores using a defined scoring methodology.
+- Documented proposed evidence requests, receipt status, and follow-up activities.
+- Mapped selected ISO/IEC 27001 controls to relevant NIST CSF 2.0 outcomes.
+- Developed a remediation plan with proposed actions, responsible roles, priorities, and target timelines.
+- Prepared assessment findings and management-level recommendations.
 
 ## Tools and Frameworks
 
 - **ISO/IEC 27001:2022:** Primary information security management standard used to organize the control assessment.
 - **NIST CSF 2.0:** Used for preliminary cross-framework mapping.
-- **CSV:** Used for structured assessment records, the risk register, the SoA, evidence tracking, and control mappings.
-- **Markdown:** Used for project documentation, methodology, findings, and reporting.
+- **CSV:** Used to maintain structured assessment records, the risk register, the SoA, evidence tracking, and control mappings.
+- **Markdown:** Used to document the project methodology, findings, and reports.
 - **GitHub:** Used for version control, documentation management, and portfolio presentation.
 
 ## Repository Structure
@@ -44,7 +46,7 @@ All findings and evidence descriptions are simulated. No real organization's con
 | [`assessment/iso27001_gap_assessment.csv`](assessment/iso27001_gap_assessment.csv) | Assessment records for 30 selected Annex A controls |
 | [`assessment/risk_register.csv`](assessment/risk_register.csv) | Register of 20 cybersecurity risks, including inherent and residual scores, risk owners, and treatment decisions |
 | [`assessment/statement_of_applicability.csv`](assessment/statement_of_applicability.csv) | Selected-control applicability decisions, justifications, implementation statuses, and risk references |
-| [`assessment/evidence_tracking_matrix.csv`](assessment/evidence_tracking_matrix.csv) | Proposed evidence requests, receipt status, and follow-up tracking |
+| [`assessment/evidence_tracking_matrix.csv`](assessment/evidence_tracking_matrix.csv) | Evidence requests, receipt status, and follow-up tracking |
 | [`assessment/nist_csf_mapping.csv`](assessment/nist_csf_mapping.csv) | Preliminary mapping between selected ISO controls and NIST CSF 2.0 outcomes |
 | [`docs/assessment-scope.md`](docs/assessment-scope.md) | Assessment boundaries, objectives, and scope limitations |
 | [`docs/assessment-methodology.md`](docs/assessment-methodology.md) | Assessment approach, evidence criteria, and implementation-status definitions |
@@ -64,13 +66,13 @@ All findings and evidence descriptions are simulated. No real organization's con
 | Not Implemented | The assessment scenario indicates that the control has not been implemented. |
 | Not Verified | Available information is insufficient to determine implementation status. |
 
-A **Not Verified** status does not automatically mean a control is absent or ineffective. Additional documentation, evidence review, or testing may be needed before a conclusion can be reached.
+A **Not Verified** status does not automatically mean a control is absent or ineffective. Additional documentation, evidence review, or testing may be required before a conclusion can be reached.
 
 ## Risk Assessment Approach
 
-The risk register documents 20 simulated cybersecurity risks affecting business systems, information assets, users, suppliers, and technology processes.
+The project included a risk register documenting 20 simulated cybersecurity risks affecting business systems, information assets, users, suppliers, and technology processes.
 
-Each risk record includes:
+Each risk record included:
 
 - Risk ID and title
 - Affected asset or process
@@ -83,15 +85,17 @@ Each risk record includes:
 - Related ISO/IEC 27001 Annex A control references
 - Risk status
 
-Risk scores are calculated by multiplying likelihood by impact. The scoring methodology defines the rating scales and the thresholds used to classify risks.
+Risk scores were calculated by multiplying likelihood by impact. The scoring methodology defined the rating scales and thresholds used to classify risks.
 
-Inherent risk represents risk before considering controls. Residual risk represents the estimated risk remaining after considering existing controls. Because this is a simulated assessment and control effectiveness has not been independently validated, residual scores are illustrative rather than verified measurements.
+Inherent risk represented risk before considering controls. Residual risk represented the estimated risk remaining after considering existing controls.
 
-Planned remediation activities should not be treated as implemented controls until implementation and effectiveness have been supported by appropriate evidence.
+Because this was a simulated assessment and control effectiveness was not independently validated, residual scores were treated as illustrative rather than verified measurements.
+
+The remediation plan documented proposed corrective actions. These recommendations were not treated as implemented controls without supporting evidence.
 
 ## Key Assessment Findings
 
-The simulated assessment identifies improvement opportunities in several information security areas:
+The simulated assessment identified improvement opportunities in several information security areas:
 
 - **Asset management:** Completing the inventory of information assets and associated cloud resources.
 - **Access management:** Improving access restrictions, periodic access reviews, privileged access oversight, and secure authentication.
@@ -103,7 +107,7 @@ The simulated assessment identifies improvement opportunities in several informa
 - **Data protection:** Validating encryption and cryptographic key management practices.
 - **Change management and secure development:** Improving change approval, testing, and integration of security activities into development.
 
-Three selected controls are currently marked **Not Verified**:
+Three selected controls were classified as **Not Verified**:
 
 | Control | Control Area | Evidence Needed |
 |---|---|---|
@@ -111,26 +115,39 @@ Three selected controls are currently marked **Not Verified**:
 | A.8.13 | Information backup | Backup records and evidence of restoration testing |
 | A.8.24 | Use of cryptography | Evidence supporting encryption and cryptographic key management practices |
 
-Evidence requests have been documented, but the requested evidence has not yet been received and validated. These statuses should remain provisional until sufficient evidence is available.
+The evidence tracking matrix documented the related evidence requests and their receipt status. These control statuses remained provisional because the requested evidence had not been received and validated within the simulated assessment.
 
 ## Statement of Applicability
 
-The project includes an SoA excerpt for the 30 selected controls. It records whether each control is applicable, the reason for its applicability, its current simulated implementation status, evidence references, related risk IDs, and whether treatment is required.
+The project included a Statement of Applicability (SoA) excerpt covering the 30 selected controls.
 
-The SoA is a portfolio-level excerpt rather than a complete organizational SoA. Its applicability decisions and risk relationships are proposed for this simulated scenario and would require appropriate organizational review in a real assessment.
+The SoA documented:
+
+- Whether each control was applicable.
+- The justification for its applicability.
+- Its simulated implementation status.
+- Supporting evidence references.
+- Related risk IDs.
+- Whether treatment was required.
+
+The completed SoA is a portfolio-level excerpt rather than a complete organizational SoA. Its applicability decisions and risk relationships were developed for the fictional scenario and would require organizational review in a real assessment.
 
 ## NIST CSF 2.0 Mapping
 
-The project includes a preliminary mapping between selected ISO/IEC 27001:2022 Annex A controls and relevant NIST CSF 2.0 outcomes.
+A preliminary mapping was completed between selected ISO/IEC 27001:2022 Annex A controls and relevant NIST CSF 2.0 outcomes.
 
-The mapping is intended to demonstrate cross-framework analysis and help organize security activities. It is an informative relationship between selected controls and outcomes, not proof that the frameworks are equivalent or that the organization satisfies either framework.
+This mapping demonstrated cross-framework analysis and provided a structured way to relate information security controls to cybersecurity outcomes.
+
+The mapping represents informative relationships between selected controls and outcomes. It does not establish that the frameworks are equivalent or that the organization satisfies either framework.
 
 ## Key Deliverables
+
+The project produced the following deliverables:
 
 1. A structured gap assessment of 30 selected ISO/IEC 27001:2022 Annex A controls.
 2. A risk register documenting 20 simulated cybersecurity risks.
 3. A selected-control Statement of Applicability excerpt.
-4. An evidence tracking matrix for proposed evidence requests and follow-up.
+4. An evidence tracking matrix documenting evidence requests and follow-up.
 5. A preliminary ISO/IEC 27001 to NIST CSF 2.0 mapping.
 6. A documented risk-scoring methodology.
 7. A remediation plan with proposed actions, priorities, owners, and timelines.
@@ -139,19 +156,17 @@ The mapping is intended to demonstrate cross-framework analysis and help organiz
 
 ## Important Limitations
 
-This project is a simulated portfolio exercise based on a fictional organization. It is not a real audit, a verified assessment of an operating company, or evidence of ISO/IEC 27001 certification.
+This project was completed as a simulated portfolio exercise based on a fictional organization. It was not a real audit, a verified assessment of an operating company, or evidence of ISO/IEC 27001 certification.
 
-The assessment covers 30 selected Annex A controls rather than the complete set of 93 Annex A controls in ISO/IEC 27001:2022. It does not constitute a complete assessment of all requirements for an information security management system.
+The assessment covered 30 selected Annex A controls rather than the complete set of 93 Annex A controls in ISO/IEC 27001:2022. It did not constitute a complete assessment of all requirements for an information security management system.
 
-Implementation statuses, risk ratings, applicability decisions, control relationships, and remediation recommendations are illustrative. Risk scores and residual-risk estimates have not been validated against real organizational evidence. The NIST CSF 2.0 mappings are preliminary and do not demonstrate equivalent compliance.
+Implementation statuses, risk ratings, applicability decisions, control relationships, and remediation recommendations were illustrative. Risk scores and residual-risk estimates were not validated against real organizational evidence. The NIST CSF 2.0 mappings were preliminary and did not demonstrate equivalent compliance.
 
-Evidence validation, review of the proposed control-to-risk relationships, management review, and final quality assurance remain outstanding.
+Evidence validation and management review would be necessary before applying these assessment conclusions to a real organization.
 
 ## Project Status
 
-**Status:** Core assessment deliverables drafted. Evidence validation and final quality review remain outstanding.
+**Status: Completed — Portfolio Project**
 
-This repository demonstrates a structured GRC assessment workflow, from control review and risk documentation through evidence tracking, cross-framework mapping, and remediation planning.
-
-
+The project deliverables and supporting documentation were prepared and organized in GitHub. The completed work demonstrates a structured GRC assessment workflow covering control assessment, risk identification, Statement of Applicability development, evidence tracking, cross-framework mapping, and remediation planning.
 
